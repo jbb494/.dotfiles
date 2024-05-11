@@ -34,4 +34,9 @@ export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
 alias v=nvim
-#. "$HOME/.cargo/env"
+
+if [[ -f "$HOME/.cargo/env" ]]; then
+  source "$HOME/.cargo/env";
+fi
+
+eval "$(~/.local/bin/mise activate zsh)" 

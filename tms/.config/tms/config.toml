@@ -4,9 +4,13 @@ recursive_submodules = true
 full_path = true
 
 [[search_dirs]]
-path = "/home/joanbb/.dotfiles"
-depth = 10
+path = "~/work/emotion-repos/"
+depth = 1
 
 [[search_dirs]]
-path = "/home/joanbb/work/"
-depth = 10
+path = "~/personal/"
+depth = 1
+
+[[search_dirs]]
+path = "~/.dotfiles/"
+depth = 1
