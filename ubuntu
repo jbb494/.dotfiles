@@ -1,0 +1,21 @@
+#!/usr/bin/env zsh
+set -e
+
+if [[ -z $STOW_FOLDERS ]]; then
+    STOW_FOLDERS="nvim,zsh,zimfw,tmux,i3,alacritty,tms"
+fi
+
+if [[ -z $DOTFILES ]]; then
+    DOTFILES=$HOME/.dotfiles
+fi
+
+STOW_FOLDERS=$STOW_FOLDERS DOTFILES=$DOTFILES $DOTFILES/install
+
+# Stow private config files (in personal repo)
+if [[ ! -d ~/personal ]]; then
+    echo "No personal repo found ~/personal"
+    exit 1
+fi
+
+stow -t ~ -d ~/personal stow
+

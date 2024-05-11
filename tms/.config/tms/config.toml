@@ -1,0 +1,12 @@
+default_session = "default_session"
+search_submodules = true
+recursive_submodules = true
+full_path = true
+
+[[search_dirs]]
+path = "/home/joanbb/.dotfiles"
+depth = 10
+
+[[search_dirs]]
+path = "/home/joanbb/work/"
+depth = 10
