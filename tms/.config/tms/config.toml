@@ -4,8 +4,8 @@ recursive_submodules = true
 full_path = true
 
 [[search_dirs]]
-path = "~/work/emotion-repos/"
-depth = 1
+path = "~/work"
+depth = 2
 
 [[search_dirs]]
 path = "~/personal/"
