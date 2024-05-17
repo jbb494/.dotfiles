@@ -34,6 +34,7 @@ export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
 alias v=nvim
+alias ta='tmux attach'
 
 if [[ -f "$HOME/.cargo/env" ]]; then
   source "$HOME/.cargo/env";
