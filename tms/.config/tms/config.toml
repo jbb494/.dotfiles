@@ -2,6 +2,7 @@ default_session = "default_session"
 search_submodules = true
 recursive_submodules = true
 full_path = true
+session_sort_order = "LastAttached"
 
 [[search_dirs]]
 path = "~/work"

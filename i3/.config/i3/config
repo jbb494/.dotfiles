@@ -218,6 +218,7 @@ bar {
 # ------------------------------------------
 #exec --no-startup-id nm-applet
 exec --no-startup-id blueman-applet
+exec_always --no-startup-id feh --bg-scale ~/.local/share/backgrounds/shangai_background.jpg 
 
 # FKeys
 # Pulse Audio controls
@@ -229,16 +230,5 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute s
 bindsym XF86MonBrightnessUp exec xbacklight -inc 20 # increase screen brightness
 bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightness
 
-# Alsa audio controls.
-bindsym $mod+Shift+comma exec ~/.config/i3/scripts/alsa restore
-bindsym $mod+semicolon exec ~/.config/i3/scripts/alsa down Headphone
-bindsym $mod+comma exec ~/.config/i3/scripts/alsa up Headphone
-bindsym $mod+m move workspace to output left
-
 # Suspend
 bindsym $mod+Shift+period exec systemctl suspend
-
-
-# Startup
-# exec "xkbcomp -I$XDG_CONFIG_HOME/xkb $XDG_CONFIG_HOME/xkb/ergodox-ez-dvorak $DISPLAY"
-# exec_always --no-startup-id "setxkbmap -layout ergodox-dvorak"
