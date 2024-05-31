@@ -5,17 +5,5 @@ full_path = true
 session_sort_order = "LastAttached"
 
 [[search_dirs]]
-path = "~/work"
-depth = 2
-
-[[search_dirs]]
-path = "~/personal/"
-depth = 1
-
-[[search_dirs]]
-path = "~/.dotfiles/"
-depth = 1
-
-[[search_dirs]]
-path = "~/.local/src"
+path = "~/.local/share/nvim/lazy"
 depth = 1
