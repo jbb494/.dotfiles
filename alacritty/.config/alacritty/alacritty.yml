@@ -5,3 +5,9 @@ window:
   # Background opacity
   opacity: 1
 
+# Font config:
+font:
+  # Normal (roman):
+  normal:
+      family: JetBrainsMono Nerd Font
+      style: regular
