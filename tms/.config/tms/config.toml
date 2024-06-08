@@ -10,7 +10,7 @@ depth = 2
 
 [[search_dirs]]
 path = "~/personal/"
-depth = 1
+depth = 2
 
 [[search_dirs]]
 path = "~/.dotfiles/"

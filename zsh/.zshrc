@@ -33,6 +33,9 @@ export PATH="/opt/homebrew/bin:$PATH"
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
+# sst
+export PATH=/home/joanbellavista/.sst/bin:$PATH
+
 alias v=nvim
 alias ta='tmux attach'
 
