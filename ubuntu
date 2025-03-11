@@ -2,7 +2,7 @@
 set -e
 
 if [[ -z $STOW_FOLDERS ]]; then
-    STOW_FOLDERS="nvim,zsh,zimfw,tmux,i3,tms,dunst"
+    STOW_FOLDERS="nvim,zsh,zimfw,tmux,i3,tms,dunst,git"
 fi
 
 if [[ -z $DOTFILES ]]; then
