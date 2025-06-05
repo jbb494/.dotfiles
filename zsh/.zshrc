@@ -44,3 +44,5 @@ if [[ -f "$HOME/.cargo/env" ]]; then
 fi
 
 eval "$(~/.local/bin/mise activate zsh)" 
+
+export PATH="$HOME/work/flexidao-repos/my-scripts/bin:$PATH"
