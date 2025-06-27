@@ -46,3 +46,8 @@ fi
 eval "$(~/.local/bin/mise activate zsh)" 
 
 export PATH="$HOME/work/flexidao-repos/my-scripts/bin:$PATH"
+#
+# add Pulumi to the PATH
+export PATH=$PATH:/home/joanbellavista/.pulumi/bin
+
+export EDITOR=nvim
