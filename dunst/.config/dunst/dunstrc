@@ -318,6 +318,12 @@
     appname = "blueman"
     skip_display = yes
 
+# Rule to play a sound for notifications from the "claude" app
+[claude_sound_rule]
+    appname = "claude"
+    script = /home/joanbb/.config/dunst/play_claude_sound.sh
+
+
 # Every section that isn't one of the above is interpreted as a rules to
 # override settings for certain messages.
 #
