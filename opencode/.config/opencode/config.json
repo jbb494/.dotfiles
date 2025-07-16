@@ -29,5 +29,18 @@
     "messages_copy": "<leader>y",
     "messages_revert": "<leader>r",
     "app_exit": "ctrl+c,<leader>q"
-  }
+  },
+  "provider": {
+    "moonshot": {
+      "npm": "@ai-sdk/openai-compatible",
+      "options": {
+        "baseURL": "https://api.moonshot.ai/v1"
+      },
+      "models": {
+        "kimi-k2-0711-preview": {
+        }
+      }
+    }
+  },
+  "layout": "stretch"
 }
